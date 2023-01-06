@@ -1,0 +1,658 @@
+[2023-01-05 22:11:25,141] {processor.py:153} INFO - Started process (PID=45) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:11:25,142] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:11:25,143] {logging_mixin.py:115} INFO - [2023-01-05 22:11:25,143] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:11:25,177] {logging_mixin.py:115} INFO - [2023-01-05 22:11:25,173] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:11:25,178] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:11:25,200] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.061 seconds
+[2023-01-05 22:11:55,887] {processor.py:153} INFO - Started process (PID=108) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:11:56,330] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:11:56,332] {logging_mixin.py:115} INFO - [2023-01-05 22:11:56,332] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:11:56,345] {logging_mixin.py:115} INFO - [2023-01-05 22:11:56,343] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:11:56,346] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:12:03,804] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 7.919 seconds
+[2023-01-05 22:12:33,976] {processor.py:153} INFO - Started process (PID=162) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:12:33,977] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:12:33,977] {logging_mixin.py:115} INFO - [2023-01-05 22:12:33,977] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:12:33,998] {logging_mixin.py:115} INFO - [2023-01-05 22:12:33,994] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:12:34,000] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:12:34,027] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.055 seconds
+[2023-01-05 22:13:05,752] {processor.py:153} INFO - Started process (PID=204) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:13:05,754] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:13:05,755] {logging_mixin.py:115} INFO - [2023-01-05 22:13:05,755] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:13:05,778] {logging_mixin.py:115} INFO - [2023-01-05 22:13:05,773] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:13:05,780] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:13:05,815] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.066 seconds
+[2023-01-05 22:13:36,466] {processor.py:153} INFO - Started process (PID=256) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:13:36,558] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:13:36,559] {logging_mixin.py:115} INFO - [2023-01-05 22:13:36,559] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:13:36,711] {logging_mixin.py:115} INFO - [2023-01-05 22:13:36,707] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:13:36,712] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:13:38,877] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 2.415 seconds
+[2023-01-05 22:21:29,146] {processor.py:153} INFO - Started process (PID=56) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:21:29,149] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:21:29,150] {logging_mixin.py:115} INFO - [2023-01-05 22:21:29,150] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:21:29,182] {logging_mixin.py:115} INFO - [2023-01-05 22:21:29,175] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:21:29,185] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:21:29,210] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.069 seconds
+[2023-01-05 22:21:59,730] {processor.py:153} INFO - Started process (PID=110) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:21:59,732] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:21:59,734] {logging_mixin.py:115} INFO - [2023-01-05 22:21:59,733] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:21:59,767] {logging_mixin.py:115} INFO - [2023-01-05 22:21:59,761] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:21:59,769] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:21:59,804] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.079 seconds
+[2023-01-05 22:22:30,588] {processor.py:153} INFO - Started process (PID=173) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:22:30,879] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:22:30,880] {logging_mixin.py:115} INFO - [2023-01-05 22:22:30,879] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:22:30,903] {logging_mixin.py:115} INFO - [2023-01-05 22:22:30,899] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:22:30,905] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:22:30,924] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.338 seconds
+[2023-01-05 22:23:01,076] {processor.py:153} INFO - Started process (PID=236) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:23:01,077] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:23:01,077] {logging_mixin.py:115} INFO - [2023-01-05 22:23:01,077] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:23:01,098] {logging_mixin.py:115} INFO - [2023-01-05 22:23:01,094] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:23:01,099] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:23:01,160] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.087 seconds
+[2023-01-05 22:23:31,779] {processor.py:153} INFO - Started process (PID=290) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:23:31,779] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:23:31,780] {logging_mixin.py:115} INFO - [2023-01-05 22:23:31,780] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:23:31,801] {logging_mixin.py:115} INFO - [2023-01-05 22:23:31,797] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:23:31,803] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:23:31,828] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.052 seconds
+[2023-01-05 22:24:02,527] {processor.py:153} INFO - Started process (PID=353) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:24:02,667] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:24:02,668] {logging_mixin.py:115} INFO - [2023-01-05 22:24:02,668] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:24:03,631] {logging_mixin.py:115} INFO - [2023-01-05 22:24:03,625] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:24:03,633] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:24:05,928] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 3.404 seconds
+[2023-01-05 22:24:36,434] {processor.py:153} INFO - Started process (PID=407) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:24:36,435] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:24:36,436] {logging_mixin.py:115} INFO - [2023-01-05 22:24:36,436] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:24:36,457] {logging_mixin.py:115} INFO - [2023-01-05 22:24:36,453] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:24:36,458] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:24:36,477] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.045 seconds
+[2023-01-05 22:25:06,558] {processor.py:153} INFO - Started process (PID=471) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:25:06,559] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:25:06,560] {logging_mixin.py:115} INFO - [2023-01-05 22:25:06,560] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:25:06,586] {logging_mixin.py:115} INFO - [2023-01-05 22:25:06,581] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:25:06,589] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:25:06,613] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.057 seconds
+[2023-01-05 22:25:36,695] {processor.py:153} INFO - Started process (PID=525) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:25:36,695] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:25:36,696] {logging_mixin.py:115} INFO - [2023-01-05 22:25:36,696] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:25:36,717] {logging_mixin.py:115} INFO - [2023-01-05 22:25:36,713] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:25:36,719] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:25:41,131] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 4.439 seconds
+[2023-01-05 22:26:11,610] {processor.py:153} INFO - Started process (PID=580) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:26:11,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:26:11,612] {logging_mixin.py:115} INFO - [2023-01-05 22:26:11,612] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:26:11,642] {logging_mixin.py:115} INFO - [2023-01-05 22:26:11,637] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:26:11,644] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:26:11,667] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.060 seconds
+[2023-01-05 22:26:41,703] {processor.py:153} INFO - Started process (PID=643) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:26:41,704] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:26:41,705] {logging_mixin.py:115} INFO - [2023-01-05 22:26:41,705] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:26:41,729] {logging_mixin.py:115} INFO - [2023-01-05 22:26:41,724] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:26:41,731] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:26:41,752] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.052 seconds
+[2023-01-05 22:27:12,015] {processor.py:153} INFO - Started process (PID=706) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:27:12,015] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:27:12,016] {logging_mixin.py:115} INFO - [2023-01-05 22:27:12,016] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:27:12,037] {logging_mixin.py:115} INFO - [2023-01-05 22:27:12,033] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:27:12,039] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:27:12,057] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.045 seconds
+[2023-01-05 22:27:42,663] {processor.py:153} INFO - Started process (PID=760) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:27:42,663] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:27:42,664] {logging_mixin.py:115} INFO - [2023-01-05 22:27:42,664] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:27:42,686] {logging_mixin.py:115} INFO - [2023-01-05 22:27:42,681] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:27:42,688] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:27:42,708] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.048 seconds
+[2023-01-05 22:28:13,605] {processor.py:153} INFO - Started process (PID=823) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:28:13,607] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:28:13,608] {logging_mixin.py:115} INFO - [2023-01-05 22:28:13,608] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:28:13,632] {logging_mixin.py:115} INFO - [2023-01-05 22:28:13,627] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 6, in <module>
+    from airflow.operators.python_operators import PythonOperator
+ModuleNotFoundError: No module named 'airflow.operators.python_operators'
+[2023-01-05 22:28:13,634] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:28:13,653] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.050 seconds
+[2023-01-05 22:28:26,509] {processor.py:153} INFO - Started process (PID=868) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:28:26,510] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:28:26,511] {logging_mixin.py:115} INFO - [2023-01-05 22:28:26,510] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:28:26,548] {logging_mixin.py:115} INFO - [2023-01-05 22:28:26,543] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 17, in <module>
+    hello = PythonOperator(task_id='Dag Test', python_callable=helloDag, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 754, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Dag Test' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-01-05 22:28:26,549] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:28:26,567] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.060 seconds
+[2023-01-05 22:28:57,148] {processor.py:153} INFO - Started process (PID=922) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:28:57,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:28:57,149] {logging_mixin.py:115} INFO - [2023-01-05 22:28:57,149] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:28:57,173] {logging_mixin.py:115} INFO - [2023-01-05 22:28:57,169] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 17, in <module>
+    hello = PythonOperator(task_id='Dag Test', python_callable=helloDag, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 754, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Dag Test' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-01-05 22:28:57,174] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:28:57,193] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.048 seconds
+[2023-01-05 22:29:27,722] {processor.py:153} INFO - Started process (PID=986) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:29:27,722] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:29:27,723] {logging_mixin.py:115} INFO - [2023-01-05 22:29:27,723] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:29:27,745] {logging_mixin.py:115} INFO - [2023-01-05 22:29:27,741] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 17, in <module>
+    hello = PythonOperator(task_id='Dag Test', python_callable=helloDag, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 754, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Dag Test' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-01-05 22:29:27,745] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:29:27,763] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.044 seconds
+[2023-01-05 22:29:53,791] {processor.py:153} INFO - Started process (PID=1017) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:29:53,792] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:29:53,793] {logging_mixin.py:115} INFO - [2023-01-05 22:29:53,793] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:29:53,843] {logging_mixin.py:115} INFO - [2023-01-05 22:29:53,839] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 17, in <module>
+    hello = PythonOperator(task_id='Dag Test', python_callable=helloDag, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 754, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Dag Test' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-01-05 22:29:53,844] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:29:53,866] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.078 seconds
+[2023-01-05 22:34:48,132] {processor.py:153} INFO - Started process (PID=55) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:34:48,135] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:34:48,136] {logging_mixin.py:115} INFO - [2023-01-05 22:34:48,136] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:34:48,197] {logging_mixin.py:115} INFO - [2023-01-05 22:34:48,190] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 15, in <module>
+    start_date=airflow.utils.dates.days_ago(0), catchup=False)
+NameError: name 'airflow' is not defined
+[2023-01-05 22:34:48,201] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:34:48,274] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.147 seconds
+[2023-01-05 22:35:18,839] {processor.py:153} INFO - Started process (PID=109) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:35:18,840] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:35:18,841] {logging_mixin.py:115} INFO - [2023-01-05 22:35:18,840] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:35:18,866] {logging_mixin.py:115} INFO - [2023-01-05 22:35:18,862] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 15, in <module>
+    start_date=airflow.utils.dates.days_ago(0), catchup=False)
+NameError: name 'airflow' is not defined
+[2023-01-05 22:35:18,868] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:35:18,885] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.049 seconds
+[2023-01-05 22:35:36,099] {processor.py:153} INFO - Started process (PID=163) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:35:36,100] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:35:36,101] {logging_mixin.py:115} INFO - [2023-01-05 22:35:36,101] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:35:36,141] {logging_mixin.py:115} INFO - [2023-01-05 22:35:36,137] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 17, in <module>
+    hello = PythonOperator(task_id='Dag Test', python_callable=helloDag, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 754, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Dag Test' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-01-05 22:35:36,142] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:35:36,159] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.062 seconds
+[2023-01-05 22:36:06,848] {processor.py:153} INFO - Started process (PID=226) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:36:06,850] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:36:06,850] {logging_mixin.py:115} INFO - [2023-01-05 22:36:06,850] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:36:06,882] {logging_mixin.py:115} INFO - [2023-01-05 22:36:06,876] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 17, in <module>
+    hello = PythonOperator(task_id='Dag Test', python_callable=helloDag, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 754, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Dag Test' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-01-05 22:36:06,882] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:36:06,907] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.061 seconds
+[2023-01-05 22:36:37,450] {processor.py:153} INFO - Started process (PID=281) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:36:37,451] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:36:37,452] {logging_mixin.py:115} INFO - [2023-01-05 22:36:37,451] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:36:37,477] {logging_mixin.py:115} INFO - [2023-01-05 22:36:37,472] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demonstration.py", line 17, in <module>
+    hello = PythonOperator(task_id='Dag Test', python_callable=helloDag, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 754, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Dag Test' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-01-05 22:36:37,477] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:36:37,504] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.056 seconds
+[2023-01-05 22:37:04,537] {processor.py:153} INFO - Started process (PID=344) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:37:04,556] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:37:04,557] {logging_mixin.py:115} INFO - [2023-01-05 22:37:04,557] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:37:04,593] {processor.py:651} INFO - DAG(s) dict_keys(['EL']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:37:04,761] {logging_mixin.py:115} INFO - [2023-01-05 22:37:04,761] {manager.py:508} INFO - Created Permission View: can delete on DAG:EL
+[2023-01-05 22:37:04,772] {logging_mixin.py:115} INFO - [2023-01-05 22:37:04,772] {manager.py:508} INFO - Created Permission View: can read on DAG:EL
+[2023-01-05 22:37:04,780] {logging_mixin.py:115} INFO - [2023-01-05 22:37:04,780] {manager.py:508} INFO - Created Permission View: can edit on DAG:EL
+[2023-01-05 22:37:04,781] {logging_mixin.py:115} INFO - [2023-01-05 22:37:04,781] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:37:04,788] {logging_mixin.py:115} INFO - [2023-01-05 22:37:04,788] {dag.py:2390} INFO - Creating ORM DAG for EL
+[2023-01-05 22:37:04,799] {logging_mixin.py:115} INFO - [2023-01-05 22:37:04,799] {dag.py:2919} INFO - Setting next_dagrun for EL to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:37:04,818] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.283 seconds
+[2023-01-05 22:41:40,705] {processor.py:153} INFO - Started process (PID=54) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:41:40,706] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:41:40,708] {logging_mixin.py:115} INFO - [2023-01-05 22:41:40,707] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:41:40,756] {processor.py:651} INFO - DAG(s) dict_keys(['EL']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:41:41,082] {logging_mixin.py:115} INFO - [2023-01-05 22:41:41,082] {manager.py:420} ERROR - Add View Menu Error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(EL) already exists.
+
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash) VALUES (%(dag_id)s, %(fileloc)s, %(fileloc_hash)s, %(data)s, %(data_compressed)s, %(last_updated)s, %(dag_hash)s)]
+[parameters: {'dag_id': 'EL', 'fileloc': '/opt/airflow/dags/demonstration.py', 'fileloc_hash': 24416677872154693, 'data': '{"__version": 1, "dag": {"_description": "EL DAG", "timetable": {"__type": "airflow.timetables.interval.CronDataIntervalTimetable", "__var": {"expres ... (832 characters truncated) ... onOperator", "_task_module": "airflow.operators.python", "_is_empty": false, "op_args": [], "op_kwargs": {}}], "dag_dependencies": [], "params": {}}}', 'data_compressed': None, 'last_updated': datetime.datetime(2023, 1, 5, 22, 41, 40, 777444, tzinfo=Timezone('UTC')), 'dag_hash': '1f7e81bc72deda29350a1d87245bab4b'}]
+(Background on this error at: http://sqlalche.me/e/14/gkpj)
+[2023-01-05 22:41:41,091] {logging_mixin.py:115} INFO - [2023-01-05 22:41:41,090] {manager.py:508} INFO - Created Permission View: can read on None
+[2023-01-05 22:41:41,108] {logging_mixin.py:115} INFO - [2023-01-05 22:41:41,108] {manager.py:511} ERROR - Creation of Permission View Error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ab_permission_view_permission_id_view_menu_id_key"
+DETAIL:  Key (permission_id, view_menu_id)=(3, 48) already exists.
+
+[SQL: INSERT INTO ab_permission_view (id, permission_id, view_menu_id) VALUES (nextval('ab_permission_view_id_seq'), %(permission_id)s, %(view_menu_id)s) RETURNING ab_permission_view.id]
+[parameters: {'permission_id': 3, 'view_menu_id': 48}]
+(Background on this error at: http://sqlalche.me/e/14/gkpj)
+[2023-01-05 22:41:41,121] {logging_mixin.py:115} INFO - [2023-01-05 22:41:41,120] {manager.py:508} INFO - Created Permission View: can edit on DAG:EL
+[2023-01-05 22:41:41,121] {logging_mixin.py:115} INFO - [2023-01-05 22:41:41,121] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:41:41,135] {logging_mixin.py:115} INFO - [2023-01-05 22:41:41,135] {dag.py:2390} INFO - Creating ORM DAG for EL
+[2023-01-05 22:41:41,152] {logging_mixin.py:115} INFO - [2023-01-05 22:41:41,151] {dag.py:2919} INFO - Setting next_dagrun for EL to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:41:41,302] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py:609 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2023-01-05 22:41:41,305] {logging_mixin.py:115} INFO - [2023-01-05 22:41:41,302] {dagbag.py:609} ERROR - Failed to write serialized DAG: /opt/airflow/dags/demonstration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 601, in _serialize_dag_capturing_errors
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/serialized_dag.py", line 142, in write_dag
+    (timezone.utcnow() - timedelta(seconds=min_update_interval)) < cls.last_updated,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2734, in first
+    return self.limit(1)._iter().first()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2821, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1669, in execute
+    conn = self._connection_for_bind(bind, close_with_result=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1520, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 721, in _connection_for_bind
+    self._assert_active()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 608, in _assert_active
+    code="7s2a",
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dag_pkey"
+DETAIL:  Key (dag_id)=(EL) already exists.
+
+[SQL: INSERT INTO dag (dag_id, root_dag_id, is_paused, is_subdag, is_active, last_parsed_time, last_pickled, last_expired, scheduler_lock, pickle_id, fileloc, owners, description, default_view, schedule_interval, timetable_description, max_active_tasks, max_active_runs, has_task_concurrency_limits, has_import_errors, next_dagrun, next_dagrun_data_interval_start, next_dagrun_data_interval_end, next_dagrun_create_after) VALUES (%(dag_id)s, %(root_dag_id)s, %(is_paused)s, %(is_subdag)s, %(is_active)s, %(last_parsed_time)s, %(last_pickled)s, %(last_expired)s, %(scheduler_lock)s, %(pickle_id)s, %(fileloc)s, %(owners)s, %(description)s, %(default_view)s, %(schedule_interval)s, %(timetable_description)s, %(max_active_tasks)s, %(max_active_runs)s, %(has_task_concurrency_limits)s, %(has_import_errors)s, %(next_dagrun)s, %(next_dagrun_data_interval_start)s, %(next_dagrun_data_interval_end)s, %(next_dagrun_create_after)s)]
+[parameters: {'dag_id': 'EL', 'root_dag_id': None, 'is_paused': True, 'is_subdag': False, 'is_active': True, 'last_parsed_time': datetime.datetime(2023, 1, 5, 22, 41, 41, 149996, tzinfo=Timezone('UTC')), 'last_pickled': None, 'last_expired': None, 'scheduler_lock': None, 'pickle_id': None, 'fileloc': '/opt/airflow/dags/demonstration.py', 'owners': 'airflow', 'description': 'EL DAG', 'default_view': 'grid', 'schedule_interval': '"0 10 * * 2"', 'timetable_description': 'At 10:00, only on Tuesday', 'max_active_tasks': 16, 'max_active_runs': 16, 'has_task_concurrency_limits': False, 'has_import_errors': False, 'next_dagrun': DateTime(2023, 1, 10, 10, 0, 0, tzinfo=Timezone('UTC')), 'next_dagrun_data_interval_start': DateTime(2023, 1, 10, 10, 0, 0, tzinfo=Timezone('UTC')), 'next_dagrun_data_interval_end': DateTime(2023, 1, 17, 10, 0, 0, tzinfo=Timezone('UTC')), 'next_dagrun_create_after': DateTime(2023, 1, 17, 10, 0, 0, tzinfo=Timezone('UTC'))}]
+(Background on this error at: http://sqlalche.me/e/14/gkpj) (Background on this error at: http://sqlalche.me/e/14/7s2a)
+[2023-01-05 22:41:41,306] {logging_mixin.py:115} INFO - [2023-01-05 22:41:41,306] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:41:41,308] {processor.py:164} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 158, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 660, in process_file
+    dagbag.sync_to_db()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 615, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 349, in iter
+    return fut.result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 428, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 629, in sync_to_db
+    DAG.bulk_write_to_db(self.dags.values(), session=session)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2379, in bulk_write_to_db
+    orm_dags: List[DagModel] = with_row_locks(query, of=DagModel, session=session).all()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2683, in all
+    return self._iter().all()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2821, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1669, in execute
+    conn = self._connection_for_bind(bind, close_with_result=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1520, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 721, in _connection_for_bind
+    self._assert_active()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 608, in _assert_active
+    code="7s2a",
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dag_pkey"
+DETAIL:  Key (dag_id)=(EL) already exists.
+
+[SQL: INSERT INTO dag (dag_id, root_dag_id, is_paused, is_subdag, is_active, last_parsed_time, last_pickled, last_expired, scheduler_lock, pickle_id, fileloc, owners, description, default_view, schedule_interval, timetable_description, max_active_tasks, max_active_runs, has_task_concurrency_limits, has_import_errors, next_dagrun, next_dagrun_data_interval_start, next_dagrun_data_interval_end, next_dagrun_create_after) VALUES (%(dag_id)s, %(root_dag_id)s, %(is_paused)s, %(is_subdag)s, %(is_active)s, %(last_parsed_time)s, %(last_pickled)s, %(last_expired)s, %(scheduler_lock)s, %(pickle_id)s, %(fileloc)s, %(owners)s, %(description)s, %(default_view)s, %(schedule_interval)s, %(timetable_description)s, %(max_active_tasks)s, %(max_active_runs)s, %(has_task_concurrency_limits)s, %(has_import_errors)s, %(next_dagrun)s, %(next_dagrun_data_interval_start)s, %(next_dagrun_data_interval_end)s, %(next_dagrun_create_after)s)]
+[parameters: {'dag_id': 'EL', 'root_dag_id': None, 'is_paused': True, 'is_subdag': False, 'is_active': True, 'last_parsed_time': datetime.datetime(2023, 1, 5, 22, 41, 41, 149996, tzinfo=Timezone('UTC')), 'last_pickled': None, 'last_expired': None, 'scheduler_lock': None, 'pickle_id': None, 'fileloc': '/opt/airflow/dags/demonstration.py', 'owners': 'airflow', 'description': 'EL DAG', 'default_view': 'grid', 'schedule_interval': '"0 10 * * 2"', 'timetable_description': 'At 10:00, only on Tuesday', 'max_active_tasks': 16, 'max_active_runs': 16, 'has_task_concurrency_limits': False, 'has_import_errors': False, 'next_dagrun': DateTime(2023, 1, 10, 10, 0, 0, tzinfo=Timezone('UTC')), 'next_dagrun_data_interval_start': DateTime(2023, 1, 10, 10, 0, 0, tzinfo=Timezone('UTC')), 'next_dagrun_data_interval_end': DateTime(2023, 1, 17, 10, 0, 0, tzinfo=Timezone('UTC')), 'next_dagrun_create_after': DateTime(2023, 1, 17, 10, 0, 0, tzinfo=Timezone('UTC'))}]
+(Background on this error at: http://sqlalche.me/e/14/gkpj) (Background on this error at: http://sqlalche.me/e/14/7s2a)
+[2023-01-05 22:42:11,717] {processor.py:153} INFO - Started process (PID=110) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:42:11,718] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:42:11,719] {logging_mixin.py:115} INFO - [2023-01-05 22:42:11,719] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:42:11,743] {processor.py:651} INFO - DAG(s) dict_keys(['EL']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:42:11,916] {logging_mixin.py:115} INFO - [2023-01-05 22:42:11,916] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:42:11,934] {logging_mixin.py:115} INFO - [2023-01-05 22:42:11,933] {dag.py:2919} INFO - Setting next_dagrun for EL to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:42:11,953] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.238 seconds
+[2023-01-05 22:42:41,999] {processor.py:153} INFO - Started process (PID=181) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:42:42,000] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:42:42,000] {logging_mixin.py:115} INFO - [2023-01-05 22:42:42,000] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:42:42,669] {processor.py:651} INFO - DAG(s) dict_keys(['EL']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:42:42,694] {logging_mixin.py:115} INFO - [2023-01-05 22:42:42,694] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:42:42,893] {logging_mixin.py:115} INFO - [2023-01-05 22:42:42,893] {dag.py:2919} INFO - Setting next_dagrun for EL to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:42:42,912] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.916 seconds
+[2023-01-05 22:42:51,086] {processor.py:153} INFO - Started process (PID=204) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:42:51,087] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:42:51,088] {logging_mixin.py:115} INFO - [2023-01-05 22:42:51,088] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:42:51,129] {processor.py:651} INFO - DAG(s) dict_keys(['Demo']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:42:51,323] {logging_mixin.py:115} INFO - [2023-01-05 22:42:51,322] {manager.py:508} INFO - Created Permission View: can read on DAG:Demo
+[2023-01-05 22:42:51,336] {logging_mixin.py:115} INFO - [2023-01-05 22:42:51,335] {manager.py:508} INFO - Created Permission View: can delete on DAG:Demo
+[2023-01-05 22:42:51,344] {logging_mixin.py:115} INFO - [2023-01-05 22:42:51,344] {manager.py:508} INFO - Created Permission View: can edit on DAG:Demo
+[2023-01-05 22:42:51,345] {logging_mixin.py:115} INFO - [2023-01-05 22:42:51,345] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:42:51,351] {logging_mixin.py:115} INFO - [2023-01-05 22:42:51,351] {dag.py:2390} INFO - Creating ORM DAG for Demo
+[2023-01-05 22:42:51,362] {logging_mixin.py:115} INFO - [2023-01-05 22:42:51,361] {dag.py:2919} INFO - Setting next_dagrun for Demo to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:42:51,379] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.296 seconds
+[2023-01-05 22:47:30,158] {processor.py:153} INFO - Started process (PID=46) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:47:30,161] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:47:30,163] {logging_mixin.py:115} INFO - [2023-01-05 22:47:30,163] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:47:30,208] {processor.py:651} INFO - DAG(s) dict_keys(['Demo']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:47:30,518] {logging_mixin.py:115} INFO - [2023-01-05 22:47:30,518] {manager.py:508} INFO - Created Permission View: can delete on DAG:Demo
+[2023-01-05 22:47:30,530] {logging_mixin.py:115} INFO - [2023-01-05 22:47:30,530] {manager.py:508} INFO - Created Permission View: can edit on DAG:Demo
+[2023-01-05 22:47:30,539] {logging_mixin.py:115} INFO - [2023-01-05 22:47:30,539] {manager.py:508} INFO - Created Permission View: can read on DAG:Demo
+[2023-01-05 22:47:30,539] {logging_mixin.py:115} INFO - [2023-01-05 22:47:30,539] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:47:30,548] {logging_mixin.py:115} INFO - [2023-01-05 22:47:30,548] {dag.py:2390} INFO - Creating ORM DAG for Demo
+[2023-01-05 22:47:30,562] {logging_mixin.py:115} INFO - [2023-01-05 22:47:30,562] {dag.py:2919} INFO - Setting next_dagrun for Demo to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:47:30,578] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.425 seconds
+[2023-01-05 22:48:01,230] {processor.py:153} INFO - Started process (PID=109) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:48:01,231] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:48:01,232] {logging_mixin.py:115} INFO - [2023-01-05 22:48:01,232] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:48:01,256] {processor.py:651} INFO - DAG(s) dict_keys(['Demo']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:48:01,283] {logging_mixin.py:115} INFO - [2023-01-05 22:48:01,283] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:48:02,737] {logging_mixin.py:115} INFO - [2023-01-05 22:48:02,737] {dag.py:2919} INFO - Setting next_dagrun for Demo to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:48:02,779] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 1.552 seconds
+[2023-01-05 22:48:32,919] {processor.py:153} INFO - Started process (PID=172) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:48:32,920] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:48:32,921] {logging_mixin.py:115} INFO - [2023-01-05 22:48:32,921] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:48:32,942] {processor.py:651} INFO - DAG(s) dict_keys(['Demo']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:48:32,961] {logging_mixin.py:115} INFO - [2023-01-05 22:48:32,961] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:48:33,088] {logging_mixin.py:115} INFO - [2023-01-05 22:48:33,088] {dag.py:2919} INFO - Setting next_dagrun for Demo to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:48:33,115] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.198 seconds
+[2023-01-05 22:49:03,913] {processor.py:153} INFO - Started process (PID=235) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:49:03,914] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:49:03,915] {logging_mixin.py:115} INFO - [2023-01-05 22:49:03,915] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:49:03,942] {processor.py:651} INFO - DAG(s) dict_keys(['Demo']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:49:03,961] {logging_mixin.py:115} INFO - [2023-01-05 22:49:03,961] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:49:04,100] {logging_mixin.py:115} INFO - [2023-01-05 22:49:04,099] {dag.py:2919} INFO - Setting next_dagrun for Demo to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:49:04,238] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.327 seconds
+[2023-01-05 22:49:34,585] {processor.py:153} INFO - Started process (PID=289) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:49:34,586] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:49:34,587] {logging_mixin.py:115} INFO - [2023-01-05 22:49:34,586] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:49:34,608] {processor.py:651} INFO - DAG(s) dict_keys(['Demo']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:49:34,628] {logging_mixin.py:115} INFO - [2023-01-05 22:49:34,628] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:49:34,850] {logging_mixin.py:115} INFO - [2023-01-05 22:49:34,850] {dag.py:2919} INFO - Setting next_dagrun for Demo to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:49:34,864] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.282 seconds
+[2023-01-05 22:50:04,946] {processor.py:153} INFO - Started process (PID=352) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:50:05,001] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:50:05,002] {logging_mixin.py:115} INFO - [2023-01-05 22:50:05,002] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:50:05,031] {processor.py:651} INFO - DAG(s) dict_keys(['Demo']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:50:05,059] {logging_mixin.py:115} INFO - [2023-01-05 22:50:05,059] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:50:05,219] {logging_mixin.py:115} INFO - [2023-01-05 22:50:05,219] {dag.py:2919} INFO - Setting next_dagrun for Demo to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:50:05,235] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.292 seconds
+[2023-01-05 22:50:35,430] {processor.py:153} INFO - Started process (PID=415) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:50:35,431] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:50:35,432] {logging_mixin.py:115} INFO - [2023-01-05 22:50:35,431] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:50:35,475] {processor.py:651} INFO - DAG(s) dict_keys(['Demo']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:50:35,495] {logging_mixin.py:115} INFO - [2023-01-05 22:50:35,495] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:50:35,633] {logging_mixin.py:115} INFO - [2023-01-05 22:50:35,633] {dag.py:2919} INFO - Setting next_dagrun for Demo to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:50:35,658] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.231 seconds
+[2023-01-05 22:51:06,716] {processor.py:153} INFO - Started process (PID=478) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:51:06,717] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:51:06,718] {logging_mixin.py:115} INFO - [2023-01-05 22:51:06,718] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:51:06,739] {processor.py:651} INFO - DAG(s) dict_keys(['Demo']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:51:06,759] {logging_mixin.py:115} INFO - [2023-01-05 22:51:06,759] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:51:06,881] {logging_mixin.py:115} INFO - [2023-01-05 22:51:06,881] {dag.py:2919} INFO - Setting next_dagrun for Demo to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:51:06,899] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.185 seconds
+[2023-01-05 22:51:36,955] {processor.py:153} INFO - Started process (PID=532) to work on /opt/airflow/dags/demonstration.py
+[2023-01-05 22:51:36,956] {processor.py:641} INFO - Processing file /opt/airflow/dags/demonstration.py for tasks to queue
+[2023-01-05 22:51:36,956] {logging_mixin.py:115} INFO - [2023-01-05 22:51:36,956] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:51:36,980] {processor.py:651} INFO - DAG(s) dict_keys(['Demo']) retrieved from /opt/airflow/dags/demonstration.py
+[2023-01-05 22:51:36,998] {logging_mixin.py:115} INFO - [2023-01-05 22:51:36,998] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-05 22:51:37,118] {logging_mixin.py:115} INFO - [2023-01-05 22:51:37,118] {dag.py:2919} INFO - Setting next_dagrun for Demo to 2023-01-10T10:00:00+00:00, run_after=2023-01-17T10:00:00+00:00
+[2023-01-05 22:51:37,131] {processor.py:161} INFO - Processing /opt/airflow/dags/demonstration.py took 0.178 seconds

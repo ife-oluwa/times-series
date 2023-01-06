@@ -1,0 +1,37 @@
+[2023-01-06 12:38:48,268] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Demo.Dag_Test scheduled__2023-01-06T12:37:00+00:00 [queued]>
+[2023-01-06 12:38:48,282] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Demo.Dag_Test scheduled__2023-01-06T12:37:00+00:00 [queued]>
+[2023-01-06 12:38:48,282] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-06 12:38:48,283] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-06 12:38:48,283] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-06 12:38:48,302] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): Dag_Test> on 2023-01-06 12:37:00+00:00
+[2023-01-06 12:38:48,309] {standard_task_runner.py:52} INFO - Started process 8116 to run task
+[2023-01-06 12:38:48,313] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'Demo', 'Dag_Test', 'scheduled__2023-01-06T12:37:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/demonstration.py', '--cfg-path', '/tmp/tmp30xsyk4f', '--error-file', '/tmp/tmpclrpwjle']
+[2023-01-06 12:38:48,315] {standard_task_runner.py:80} INFO - Job 7: Subtask Dag_Test
+[2023-01-06 12:38:48,375] {task_command.py:369} INFO - Running <TaskInstance: Demo.Dag_Test scheduled__2023-01-06T12:37:00+00:00 [running]> on host 6ef47e34797a
+[2023-01-06 12:38:48,466] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=Demo
+AIRFLOW_CTX_TASK_ID=Dag_Test
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-06T12:37:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-06T12:37:00+00:00
+[2023-01-06 12:38:48,471] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-01-06 12:38:48,472] {subprocess.py:74} INFO - Running command: ['bash', '-c', <function helloDag at 0x7f14120604d0>]
+[2023-01-06 12:38:48,475] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 189, in execute
+    cwd=self.cwd,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 82, in run_command
+    preexec_fn=pre_exec,
+  File "/usr/local/lib/python3.7/subprocess.py", line 800, in __init__
+    restore_signals, start_new_session)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1482, in _execute_child
+    restore_signals, start_new_session, preexec_fn)
+TypeError: expected str, bytes or os.PathLike object, not function
+[2023-01-06 12:38:48,490] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=Demo, task_id=Dag_Test, execution_date=20230106T123700, start_date=20230106T123848, end_date=20230106T123848
+[2023-01-06 12:38:48,508] {standard_task_runner.py:97} ERROR - Failed to execute job 7 for task Dag_Test (expected str, bytes or os.PathLike object, not function; 8116)
+[2023-01-06 12:38:48,534] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-06 12:38:48,564] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

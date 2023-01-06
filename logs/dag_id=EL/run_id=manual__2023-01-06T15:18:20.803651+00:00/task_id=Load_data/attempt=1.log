@@ -1,0 +1,25 @@
+[2023-01-06 15:18:25,988] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: EL.Load_data manual__2023-01-06T15:18:20.803651+00:00 [queued]>
+[2023-01-06 15:18:26,001] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: EL.Load_data manual__2023-01-06T15:18:20.803651+00:00 [queued]>
+[2023-01-06 15:18:26,002] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-06 15:18:26,003] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-06 15:18:26,003] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-06 15:18:26,019] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): Load_data> on 2023-01-06 15:18:20.803651+00:00
+[2023-01-06 15:18:26,025] {standard_task_runner.py:52} INFO - Started process 628 to run task
+[2023-01-06 15:18:26,028] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'EL', 'Load_data', 'manual__2023-01-06T15:18:20.803651+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmp_t5gzgab', '--error-file', '/tmp/tmpas1nj59h']
+[2023-01-06 15:18:26,029] {standard_task_runner.py:80} INFO - Job 18: Subtask Load_data
+[2023-01-06 15:18:26,078] {task_command.py:369} INFO - Running <TaskInstance: EL.Load_data manual__2023-01-06T15:18:20.803651+00:00 [running]> on host dcfdc2efb79e
+[2023-01-06 15:18:26,142] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=EL
+AIRFLOW_CTX_TASK_ID=Load_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-06T15:18:20.803651+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-06T15:18:20.803651+00:00
+[2023-01-06 15:18:26,143] {logging_mixin.py:115} INFO - Connecting to db
+[2023-01-06 15:18:26,159] {logging_mixin.py:115} INFO - (10,)
+[2023-01-06 15:18:26,160] {python.py:173} INFO - Done. Returned value was: None
+[2023-01-06 15:18:26,172] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=EL, task_id=Load_data, execution_date=20230106T151820, start_date=20230106T151825, end_date=20230106T151826
+[2023-01-06 15:18:26,201] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-06 15:18:26,232] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

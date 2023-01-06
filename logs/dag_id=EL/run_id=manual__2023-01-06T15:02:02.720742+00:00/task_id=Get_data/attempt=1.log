@@ -1,0 +1,30 @@
+[2023-01-06 15:02:04,738] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: EL.Get_data manual__2023-01-06T15:02:02.720742+00:00 [queued]>
+[2023-01-06 15:02:04,746] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: EL.Get_data manual__2023-01-06T15:02:02.720742+00:00 [queued]>
+[2023-01-06 15:02:04,747] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-06 15:02:04,747] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-06 15:02:04,747] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-06 15:02:04,762] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): Get_data> on 2023-01-06 15:02:02.720742+00:00
+[2023-01-06 15:02:04,768] {standard_task_runner.py:52} INFO - Started process 530 to run task
+[2023-01-06 15:02:04,771] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'EL', 'Get_data', 'manual__2023-01-06T15:02:02.720742+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmpd1kgplb7', '--error-file', '/tmp/tmpyj5gl_zw']
+[2023-01-06 15:02:04,771] {standard_task_runner.py:80} INFO - Job 33: Subtask Get_data
+[2023-01-06 15:02:04,816] {task_command.py:369} INFO - Running <TaskInstance: EL.Get_data manual__2023-01-06T15:02:02.720742+00:00 [running]> on host 4bf6c36955e2
+[2023-01-06 15:02:04,893] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=EL
+AIRFLOW_CTX_TASK_ID=Get_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-06T15:02:02.720742+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-06T15:02:02.720742+00:00
+[2023-01-06 15:02:04,894] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: extractData() missing 1 required positional argument: 'dates'
+[2023-01-06 15:02:04,903] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=EL, task_id=Get_data, execution_date=20230106T150202, start_date=20230106T150204, end_date=20230106T150204
+[2023-01-06 15:02:04,914] {standard_task_runner.py:97} ERROR - Failed to execute job 33 for task Get_data (extractData() missing 1 required positional argument: 'dates'; 530)
+[2023-01-06 15:02:04,943] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-06 15:02:04,980] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
